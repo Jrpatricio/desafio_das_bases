@@ -25,8 +25,7 @@ Este serviço deve retornar o seguinte payload:
          "id": 1,
          "nome":"Divida com banco X",
          "situacao":"PROSTESTADA",
-         "valor":5,
-         800.90
+         "valor":5800.90
       }
    ]
 }
