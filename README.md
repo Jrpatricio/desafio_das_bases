@@ -16,6 +16,7 @@ Este serviço deve retornar o seguinte payload:
       "logradouro":"Rua da felicidade",
       "numero":788,
       "complemento":null,
+      "cidade": "City of Dores",
       "bairro":"Vila das dores",
       "uf":"SP"
    },
