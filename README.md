@@ -30,3 +30,50 @@ Este serviço deve retornar o seguinte payload:
    ]
 }
 ```
+
+## Serviço que consume Base B
+
+Este serviço deve retornar o seguinte payload:
+
+```
+{
+   "cpf":"46693389978",
+   "nome":"Alessandro Roberto",
+   "idade":38,
+   "endereco":{
+      "logradouro":"Rua da felicidade",
+      "numero":788,
+      "complemento":null,
+      "cidade":"City of Dores",
+      "bairro":"Vila das dores",
+      "uf":"SP"
+   },
+   "fonte_renda":{
+      "ocupacao":"assalariado",
+      "renda_mensal":2500,
+      "renda_anual":30000
+   },
+   "bens":[
+      {
+         "id":1,
+         "tipo":"Automovel",
+         "descricao":"Celta prata - ano 2020/2019",
+         "valor_avaliado":25800
+      },
+      {
+         "id":1,
+         "tipo":"Imovel",
+         "descricao":"Celta prata - ano 2020/2019",
+         "endereco":{
+            "logradouro":"Rua da tristeza",
+            "numero":788,
+            "complemento":null,
+            "cidade":"City of Sorrisos",
+            "bairro":"Vila das risadas",
+            "uf":"SP"
+         },
+         "valor_avaliado":205800
+      }
+   ]
+}
+```
