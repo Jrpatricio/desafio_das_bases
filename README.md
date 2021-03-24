@@ -61,7 +61,7 @@ Este serviço deve retornar o seguinte payload:
          "valor_avaliado":25800
       },
       {
-         "id":1,
+         "id":2,
          "tipo":"Imovel",
          "descricao":"Celta prata - ano 2020/2019",
          "endereco":{
