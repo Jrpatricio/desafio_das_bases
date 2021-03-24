@@ -48,17 +48,17 @@ Este serviço deve retornar o seguinte payload:
       "bairro":"Vila das dores",
       "uf":"SP"
    },
-   "fonte_renda":{
+   "fonteRenda":{
       "ocupacao":"assalariado",
-      "renda_mensal":2500,
-      "renda_anual":30000
+      "rendaMensal":2500,
+      "rendaAnual":30000
    },
    "bens":[
       {
          "id":1,
          "tipo":"Automovel",
          "descricao":"Celta prata - ano 2020/2019",
-         "valor_avaliado":25800
+         "valorAvaliado":25800
       },
       {
          "id":2,
@@ -72,7 +72,7 @@ Este serviço deve retornar o seguinte payload:
             "bairro":"Vila das risadas",
             "uf":"SP"
          },
-         "valor_avaliado":205800
+         "valorAvaliado":205800
       }
    ]
 }
