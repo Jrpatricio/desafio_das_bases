@@ -79,7 +79,7 @@ Este serviço deve retornar o seguinte payload:
 }
 ```
 
-## Serviço que consume Base B
+## Serviço que consume Base C
 
 Este serviço deve retornar o seguinte payload:
 
@@ -101,7 +101,7 @@ Este serviço deve retornar o seguinte payload:
       "rendaMensal":2500,
       "rendaAnual":30000
    },
-   "transações_finaceiras":[
+   "transaçõesFinaceiras":[
       {
          "id":1,
          "tipo":"Investimento CDB",
